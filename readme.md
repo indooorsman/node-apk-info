@@ -1,10 +1,10 @@
-#node-apk-info
+# node-apk-info
 get basic info of an apk file by nodejs
 
-##installation
+## installation
     npm install apkinfo
 
-##useage
+## useage
     var apkinfo = require('apkinfo');
     apkinfo.get('/absolute/path/to/the/file.apk', function(error, info) {
         if (error) {
