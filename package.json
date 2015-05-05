@@ -1,6 +1,6 @@
 {
   "name": "apkinfo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "get basic info of an apk file by nodejs",
   "main": "index.js",
   "scripts": {

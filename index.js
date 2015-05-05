@@ -1,5 +1,5 @@
 var exec = require('child_process').exec;
-var aapt = require('path').resolve('./lib/aapt');
+var aapt = require('path').join(__dirname, './lib/aapt');
 
 
 var get = function(path, callback) {
