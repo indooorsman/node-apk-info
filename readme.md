@@ -1,5 +1,5 @@
 # node-apk-info
-get basic info of an apk file by nodejs
+get basic info of an apk file by nodejs. **Only tested on MacOS**
 
 ## installation
     npm install apkinfo
