@@ -1,0 +1,17 @@
+{
+  "name": "apkinfo",
+  "version": "1.0.0",
+  "description": "get apk file info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "apk",
+    "packagename",
+    "versionName",
+    "versionCode"
+  ],
+  "author": "indooorsman@gmail.com",
+  "license": "ISC"
+}
