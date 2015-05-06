@@ -1,6 +1,6 @@
 {
   "name": "apkinfo",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "get basic info of an apk file by nodejs. only support Mac OS X and linux.",
   "main": "index.js",
   "scripts": {

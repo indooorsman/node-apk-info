@@ -1,5 +1,5 @@
 # node-apk-info
-get basic info of an apk file by nodejs. **Only tested on MacOS**
+get basic info of an apk file by nodejs. **only support Mac OS X and linux**
 
 ## installation
     npm install apkinfo
@@ -21,3 +21,8 @@ get basic info of an apk file by nodejs. **Only tested on MacOS**
             } 
         */
     });
+    
+## for 64-bit Linux
+you must install some other stuff first on 64-bit linux. 
+
+please check [http://stackoverflow.com/questions/2710499/android-sdk-on-a-64-bit-linux-machine](http://stackoverflow.com/questions/2710499/android-sdk-on-a-64-bit-linux-machine)
