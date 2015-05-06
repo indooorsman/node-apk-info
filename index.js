@@ -1,8 +1,13 @@
 var exec = require('child_process').exec;
-var aapt = require('path').join(__dirname, './lib/aapt');
 
+var aapt = require('path').join(__dirname, './lib/aapt_' + process.platform);
 
 var get = function(path, callback) {
+    if (process.platform != 'darwin' && process.platform != 'linux') {
+        return callback({
+            message: 'only support Mac OS X and linux'
+        });
+    }
     var cmd = [aapt, 'd', 'badging', path].join(' ');
     exec(cmd, function(e, stdout, stderr) {
         if (e) {

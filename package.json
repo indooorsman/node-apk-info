@@ -1,7 +1,7 @@
 {
   "name": "apkinfo",
-  "version": "1.0.3",
-  "description": "get basic info of an apk file by nodejs",
+  "version": "1.0.4",
+  "description": "get basic info of an apk file by nodejs. only support Mac OS X and linux.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
