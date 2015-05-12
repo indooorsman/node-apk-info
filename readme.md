@@ -26,3 +26,6 @@ get basic info of an apk file by nodejs. **only support Mac OS X and linux**
 you must install some other stuff first on 64-bit linux. 
 
 please check [http://stackoverflow.com/questions/2710499/android-sdk-on-a-64-bit-linux-machine](http://stackoverflow.com/questions/2710499/android-sdk-on-a-64-bit-linux-machine)
+
+## contact me
+[csser.me](http://csser.me)
